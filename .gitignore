@@ -1,0 +1,59 @@
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+out/
+
+# =========================
+# Java
+# =========================
+*.class
+target/
+build/
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+
+# =========================
+# Flutter / Dart
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+
+# Flutter generated files
+**/build/
+
+# Android generated files
+**/.gradle/
+android/local.properties
+
+# =========================
+# MeshMessenger private data
+# =========================
+identity/
+revoked_cache.txt
+revoked_local.txt
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+
+# Spring Boot local configuration
+application-local.properties
+application-local.yml
+
+# =========================
+# Operating System
+# =========================
+.DS_Store
+Thumbs.db
